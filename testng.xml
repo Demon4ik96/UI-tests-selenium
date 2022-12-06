@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="ChromeTest">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="invalidUsername" value="invalid_user"/>
+        <parameter name="invalidPassword" value="invalid_password"/>
+        <parameter name="username" value="standard_user"/>
+        <parameter name="password" value="secret_sauce"/>
+        <parameter name="item1" value="Sauce Labs Backpack"/>
+        <parameter name="item2" value="Sauce Labs Fleece Jacket"/>
+        <classes>
+            <class name="tests.SaucedemoLoginTest"/>
+            <class name="tests.SaucedemoProductsTest"/>
+            <class name="tests.SaucedemoCartTest"/>
+            <class name="tests.SaucedemoInfoTest"/>
+            <class name="tests.SaucedemoCheckoutTest"/>
+        </classes>
+    </test>
+</suite>
