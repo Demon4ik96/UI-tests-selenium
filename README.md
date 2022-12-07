@@ -1,13 +1,13 @@
-## Description:
+## Description
         
 This project contains UI tests based 
 on Selenium 4 and covers big part of saucedemo.com website functionality.
 
-###Stack that was used:
+### Stack that was used
 
 Maven, TestNG, Allure, Selenium 4, Docker
 
-###Parameters for running
+### Parameters for running
 
 You can set your bunch of parameters by changing value inside testng.xml file.
 
@@ -15,7 +15,7 @@ Allowed values for browser can be "chrome", "firefox" or "edge".
 
 All values of other parameters you can define intuitively by exploring of saucedemo.com and this project.
 
-###How to run tests
+### How to run tests
 
 I used Selenium 4 Dynamic Grid concept to run this project remotely in container.
 To do so, you should have at least Docker on your OS(with exposing daemon on TCP - on), Git and Java IDE of course.
@@ -32,7 +32,7 @@ Steps:
 
 3. Run tests from testng.xml
 
-####Bonus
+#### Bonus
 
 You can see test report visually in browser.
 After running tests you will have folder with name "allure-results".
