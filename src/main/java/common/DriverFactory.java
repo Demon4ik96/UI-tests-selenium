@@ -11,7 +11,6 @@ import static constants.Constant.Urls.HUB_URL;
 import static org.openqa.selenium.remote.Browser.CHROME;
 import static org.openqa.selenium.remote.Browser.EDGE;
 import static org.openqa.selenium.remote.Browser.FIREFOX;
-import static org.openqa.selenium.remote.Browser.OPERA;
 
 public class DriverFactory
 {
@@ -25,9 +24,6 @@ public class DriverFactory
     {
       case "FIREFOX":
         caps.setBrowserName(FIREFOX.browserName());
-        break;
-      case "OPERA":
-        caps.setBrowserName(OPERA.browserName());
         break;
       case "EDGE":
         caps.setBrowserName(EDGE.browserName());
